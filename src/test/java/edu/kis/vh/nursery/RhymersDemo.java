@@ -1,7 +1,9 @@
 package edu.kis.vh.nursery;
 
 import edu.kis.vh.nursery.DefaultCountingOutRhymer;
+// TODO: delete unused import statement
 import edu.kis.vh.nursery.HanoiRhymer;
+// TODO: delete unused import statement
 import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
 import edu.kis.vh.nursery.factory.RhymersFactory;
 
@@ -31,6 +33,7 @@ class RhymersDemo {
                 System.out.print(rhymers[i].countOut() + "  ");
             System.out.println();
         }
+        // TODO: needs refactoring - 'for' loop can be replaced with enhanced 'for'
 
         System.out.println("total rejected is "
                 + ((HanoiRhymer) rhymers[3]).reportRejected());
